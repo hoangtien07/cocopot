@@ -12,7 +12,7 @@ export const Footer: React.FC = () => {
           <div className="space-y-4">            
             <Link to="/" className="flex items-center gap-2 group relative z-50 shrink-0">
               <img 
-                src="../src/COCOPOT-Logo.png"
+                src="https://raw.githubusercontent.com/hoangtien07/cocopot/refs/heads/main/src/cocopot-logo.png"
                 alt="COCOPOT Logo" 
                 className="h-10 md:h-12 w-auto object-contain"
               />
