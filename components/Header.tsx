@@ -75,12 +75,12 @@ export const Header: React.FC = () => {
 
       {/* Mobile Menu Overlay */}
       {isMobileMenuOpen && (
-        <div className="fixed inset-0 z-40 bg-brand-cream/98 backdrop-blur-xl animate-in slide-in-from-top-10 duration-200 flex flex-col pt-24 px-6 h-screen">
+        <div className="fixed inset-0 z-40 bg-brand-cream backdrop-blur animate-in slide-in-from-top-10 duration-200 flex flex-col pt-24 px-6 h-screen">
           <nav className="flex flex-col gap-6">
             <Link 
                 to="/"
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="text-xl font-bold font-serif border-b border-brand-sage/20 pb-4 text-brand-dark"
+                className="text-xl text-brand-green font-bold font-serif border-b border-brand-sage/20 pb-4"
             >
                 Trang Chủ
             </Link>
@@ -92,7 +92,7 @@ export const Header: React.FC = () => {
                 className={`text-xl font-bold font-serif border-b border-brand-sage/20 pb-4 ${
                   isActive(link.path) 
                     ? 'text-brand-orange' 
-                    : 'text-brand-dark'
+                    : 'text-brand-green'
                 }`}
               >
                 {link.name}
@@ -102,7 +102,7 @@ export const Header: React.FC = () => {
               <Button className="w-full h-12 text-lg shadow-xl" onClick={() => setIsMobileMenuOpen(false)}>
                 Đặt Bàn Ngay
               </Button>
-              <div className="flex justify-center mt-6 gap-2 text-brand-green">
+              <div className="flex justify-center items-center mt-6 gap-2 text-brand-green">
                  <Phone size={20} />
                  <span className="font-bold text-lg">1900 6688</span>
               </div>
