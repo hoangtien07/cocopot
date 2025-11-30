@@ -6,7 +6,6 @@ import { ChevronDown, ChevronLeft, ChevronRight } from 'lucide-react';
 const backgroundImages = [
   "https://images.unsplash.com/photo-1598514983318-2f64f8f4796c?q=80&w=2560&auto=format&fit=crop", // Hotpot Table Spread
   "https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=2560&auto=format&fit=crop", // Restaurant Interior Vibe
-  "https://images.unsplash.com/photo-1550966871-3ed3c47e2ce2?q=80&w=2560&auto=format&fit=crop"  // Elegant Dining
 ];
 
 export const Hero: React.FC = () => {
