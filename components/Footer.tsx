@@ -18,7 +18,7 @@ export const Footer: React.FC = () => {
               />
             </Link>
             <p className="text-brand-sand/80 text-sm leading-relaxed font-sans">
-              Lẩu dừa tươi ngọt thanh, mang hương vị thiên nhiên đến bàn ăn của bạn. Tươi ngon - Sạch sẽ - Bổ dưỡng.
+              Cocopots – Coconut Chicken Hotpot. <br /> Lẩu dừa tươi ngọt thanh, mang hương vị thiên nhiên đến bàn ăn của bạn. Tươi ngon - Sạch sẽ - Bổ dưỡng.
             </p>
             <div className="flex gap-4 pt-2">
               <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-brand-orange transition-colors">
@@ -47,15 +47,15 @@ export const Footer: React.FC = () => {
             <ul className="space-y-4 text-brand-sand/80 text-sm font-sans">
               <li className="flex items-start gap-3">
                 <MapPin className="text-brand-orange shrink-0" size={18} />
-                <span>123 Nguyễn Văn Linh, Quận 7, TP.HCM</span>
+                <span>Tầng 4, Vincom Center Trần Duy Hưng, Cầu Giấy, Hà Nội</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="text-brand-orange shrink-0" size={18} />
-                <span>1900 6688</span>
+                <span>0925 970 111</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="text-brand-orange shrink-0" size={18} />
-                <span>contact@cocopot.vn</span>
+                <span>cocopotfoods.vn@gmail.com</span>
               </li>
             </ul>
           </div>

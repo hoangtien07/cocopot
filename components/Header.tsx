@@ -58,9 +58,9 @@ export const Header: React.FC = () => {
                 <div className="w-8 h-8 rounded-full flex items-center justify-center bg-brand-green/10 group-hover:bg-brand-green group-hover:text-white transition-colors">
                   <Phone size={16} />
                 </div>
-                <span className="font-bold font-sans text-lg">1900 6688</span>
+                <span className="font-bold font-sans text-lg">0925 970 111</span>
              </div>
-             <Button size="sm" variant="secondary" className="shadow-lg shadow-brand-orange/20">Đặt Bàn</Button>
+             <Button size="sm" variant="secondary" className="shadow-lg shadow-brand-orange/20"><Link to="https://www.facebook.com/profile.php?id=61580029886380" target="_blank" rel="noopener noreferrer">Đặt Bàn</Link></Button>
           </div>
 
           {/* Mobile Toggle */}
@@ -100,11 +100,11 @@ export const Header: React.FC = () => {
             ))}
             <div className="pt-4 mt-auto mb-16">
               <Button className="w-full h-12 text-lg shadow-xl" onClick={() => setIsMobileMenuOpen(false)}>
-                Đặt Bàn Ngay
+                <Link to="https://www.facebook.com/profile.php?id=61580029886380" target="_blank" rel="noopener noreferrer">Đặt Bàn</Link>
               </Button>
               <div className="flex justify-center items-center mt-6 gap-2 text-brand-green">
                  <Phone size={20} />
-                 <span className="font-bold text-lg">1900 6688</span>
+                 <span className="font-bold text-lg">0925 970 111</span>
               </div>
             </div>
           </nav>

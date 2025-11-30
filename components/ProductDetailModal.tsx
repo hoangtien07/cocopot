@@ -3,6 +3,7 @@ import { X, Calendar, Check } from 'lucide-react';
 import { MenuItem } from '../types';
 import { Button } from './Button';
 import { ImageCarousel } from './ImageCarousel';
+import { Link } from 'react-router-dom';
 
 interface ProductDetailModalProps {
   item: MenuItem | null;
@@ -113,7 +114,9 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({ item, on
           {/* Sticky Bottom CTA */}
           <div className="p-4 border-t border-neutral-100 bg-white md:bg-transparent shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.05)] md:shadow-none">
              <Button variant="secondary" size="lg" className="w-full">
+              <Link to="https://www.facebook.com/profile.php?id=61580029886380" target="_blank" rel="noopener noreferrer">
                 Đặt Bàn Với Món Này
+              </Link>
              </Button>
              <p className="text-center text-xs text-neutral-400 mt-2">
                 Bạn sẽ được chuyển đến trang đặt bàn
